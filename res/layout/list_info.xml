@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="3dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="3dp" >
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/image_bg"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/image_user"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:src="@drawable/nop" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="id :"
+        android:textColor="#212121"
+        android:textSize="15dip"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tipe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/id"
+        android:layout_marginBottom="0dp"
+        android:text="type :"
+        android:textColor="#727272"
+        android:textSize="12dip" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tipe"
+        android:layout_below="@+id/tipe"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="email :"
+        android:textColor="#727272"
+        android:textSize="12dip" />
+
+    <TextView
+        android:id="@+id/hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_below="@+id/email"
+        android:text="hp :"
+        android:textColor="#727272"
+        android:textSize="12dip" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/id"
+        android:layout_alignBottom="@+id/id"
+        android:layout_alignRight="@+id/id"
+        android:visibility="gone"
+        android:text="TextView" />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.id.diklatpku"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:icon="@drawable/ic_loncer"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.id.diklatpku.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.id.diklatpku.MainActivity" >
+        </activity>
+        <activity android:name="com.id.diklatpku.listpiket.PetugasPiketFragment" >
+        </activity>
+        <activity android:name="com.id.diklatpku.Menu_Login" >
+        </activity>
+        <activity android:name="com.id.diklatpku.Menu_utama" >
+        </activity>
+        <activity android:name="com.id.diklatpku.login.WelcomeActivity" >
+        </activity>
+        <activity android:name="com.id.diklatpku.pengajar.ListPengajar" >
+        </activity>
+        <activity android:name="com.id.diklatpku.koment.KomentarActivity" >
+        </activity>
+        <activity android:name="com.id.diklatpku.uppass.UpdatePassActivity" >
+        </activity>
+        <activity android:name="com.id.diklatpku.pengajar.CrudSelect" >
+        </activity>
+        <activity android:name="com.id.diklatpku.ActivityPreEvaluasi" >
+        </activity>
+        <activity android:name="com.id.diklatpku.Activity_DetilUser" >
+        </activity>
+        <activity android:name="com.id.diklatpku.AboutActivity" >
+        </activity>
+    </application>
+
+</manifest>

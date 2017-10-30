@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password baru" />
+
+        <EditText
+            android:id="@+id/txt_first_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundrectone"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/txt_nama_pikt_satu"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Tulis ulang password anda " />
+
+        <EditText
+            android:id="@+id/txt_second_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundrectone"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/txt_message_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f5b7b1"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Password anda tidak match!"
+            android:textColor="#cb4335" />
+
+        <TextView
+            android:id="@+id/txt_message_success"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#abebc6"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#28b463"
+            android:text="Pasword berhasil di ubah!" />
+
+        <Button
+            android:id="@+id/btn_update_password"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundrect"
+            android:text="Update"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

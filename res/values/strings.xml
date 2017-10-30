@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Quick Respon</string>
+    <string name="menu_settings">Logout</string>
+    <string name="Fragment1">This is Fragment 1</string>
+    <string name="Fragment2">This is Fragment 2</string>
+    <string name="Fragment3">This is Fragment 3</string>
+
+     <string name="string_enter_name">Enter your name</string>
+    <string name="string_choose_username">Choose your username</string>
+    <string name="string_choose_password">Choose your password</string>
+    <string name="string_enter_email">Enter your email</string>
+    <string name="button_register">Register</string>
+    <string name="string_user_login">Login</string>
+    <string name="string_username">Email</string>
+    <string name="string_lupapass">Lupa Password?</string>
+    <string name="textview_password">Password</string>
+    <string name="submit">Submit</string>
+    
+</resources>
